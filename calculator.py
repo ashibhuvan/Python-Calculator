@@ -19,6 +19,14 @@ def gravity(m1,m2,r):
 	firstpart = constant * m1 * m2
 	bottom = r**2
 	return firstpart/bottom
+def quadratic(aa,bb,cc):
+	first_left = bb**2
+	bottom = 2*aa
+	inside = ((bb**2)-(4*aa**cc))
+	square_part = math.sqrt(inside)
+	final_answer = ((first_left - square_part)/bottom)
+	return final_answer
+
 
 
 print "Welcome to the calculator"
@@ -38,10 +46,11 @@ elif x==2:
 	distance = int(raw_input("Distance:"))
 	print "Your force is %s" % gravity(mass1,mass2,distance)
 
-elif x==3
-	Print "Please enter a, b, and c"
+elif x==3:
+	print "Please enter a, b, and c"
 	a = int(raw_input("A:"))
 	b = int(raw_input("B:"))
 	c = int(raw_input("C:"))
-else
+	print "The answer is %s" % quadratic(a,b,c)
+else:
 	print "your a retard"
