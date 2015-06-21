@@ -38,3 +38,10 @@ elif x==2:
 	distance = int(raw_input("Distance:"))
 	print "Your force is %s" % gravity(mass1,mass2,distance)
 
+elif x==3
+	Print "Please enter a, b, and c"
+	a = int(raw_input("A:"))
+	b = int(raw_input("B:"))
+	c = int(raw_input("C:"))
+else
+	print "your a retard"
