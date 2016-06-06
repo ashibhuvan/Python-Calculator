@@ -53,4 +53,4 @@ elif x==3:
 	c = int(raw_input("C:"))
 	print "The answer is %s" % quadratic(a,b,c)
 else:
-	print "your a retard"
+	print "your not very smart"
